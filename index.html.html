@@ -224,7 +224,7 @@
    https://your-project-default-rtdb.firebaseio.com or
    https://your-project-default-rtdb.<region>.firebasedatabase.app )
    ============================================================ */
-const FIREBASE_DB_URL = 'PASTE_YOUR_FIREBASE_DATABASE_URL_HERE';
+const FIREBASE_DB_URL = 'https://claude-pd-default-rtdb.firebaseio.com';
 
 async function fbGet(key){
   const res = await fetch(`${FIREBASE_DB_URL}/${key}.json`);
